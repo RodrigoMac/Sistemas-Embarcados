@@ -2,9 +2,24 @@
   Sistemas de hardware e software projetados com uma função específica
 
 2. O que são sistemas microprocesssados?
+  Sistemas controlados por um microprocessador
 
-3. Apresente aplicações de sistemas embarcados: (a) Para a indústria automotiva; (b) Para eletrodomésticos; (c) Para automação industrial.
+3. Apresente aplicações de sistemas embarcados: 
+(a) Para a indústria automotiva; 
+  Painéis digitais, interfaces eletrônicas, sistemas automáticos
+
+(b) Para eletrodomésticos; 
+  Controlador de funções, temporizador
+
+(c) Para automação industrial.
+  Sistemas sensoriais, controle robótico
 
 4. Cite arquiteturas possíveis e as diferenças entre elas.
+  A arquitetura Harvard permite que as memórias RAM e ROM sejam acessadas simultaneamente, permitindo a leitura e a execução de instruções
+simultaneamente o que agiliza os processos e é mais suscetível à falhas.
+  
+  A arquitetura Von Neumann consegue apenas realizar uma ação por vez (leitura de instrução ou leitura/escrita de dados), menos eficiente,
+porém mais seguro.
 
 5. Por que usamos o Raspberry Pi na disciplina, ao invés de outro system-on-chip?
+ Fácil acessibilidade a softwares open source, compatibilidade com Linux e relativamente baixo consumo
