@@ -12,7 +12,7 @@ Para todas as questões, escreva os comandos correspondentes no terminal.
 4. Apresente somente as pastas dentro da pasta 'root'.
 
 5. Descubra em que dia da semana caiu o seu aniversário nos últimos dez anos.
-  cal [2008..2018] | grep agosto
+  cal 2008 -A 120 | grep Agosto -A 7
   
 6. Para as questões a seguir, use a pasta no endereço https://github.com/DiogoCaetanoGarcia/Sistemas_Embarcados/raw/master/Questoes/02_Intro_Linux_arqs.zip
 
