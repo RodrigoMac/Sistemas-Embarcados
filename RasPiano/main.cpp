@@ -1,5 +1,10 @@
 #include "SDL.h"
+#include "RtMidi.h"
 #include "SimpleEvent.h"
+
+#include <cstdlib>
+#include <pthread.h>
+#include <alsa/asoundlib.h>
 #include <string>
 #include <iostream>
 
